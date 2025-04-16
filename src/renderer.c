@@ -12,6 +12,7 @@ void rend_init(){
 	cbreak();
 	noecho();
 	curs_set(0);
+	nodelay(stdscr, TRUE);
 }
 void rend_term(){
 	endwin();

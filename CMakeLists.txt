@@ -6,5 +6,6 @@ add_executable(${PROJECT_NAME}
 	src/renderer.c			src/renderer.h
 	src/game.c				src/game.h
 	src/area.c				src/area.h
+	src/tps_controller.c	src/tps_controller.h
 )
 target_link_libraries(${PROJECT_NAME} ${CURSES_LIBRARIES} ncursesw)
